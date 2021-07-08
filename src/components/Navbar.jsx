@@ -34,7 +34,10 @@ const Navbar = (props) => {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={clickHome}>
+              <Link
+                to="/pizza-party/home"
+                className="nav-links"
+                onClick={clickHome}>
                 <span
                   className={props.HomeActive ? "nav-link active" : "nav-link"}>
                   Home
@@ -42,7 +45,10 @@ const Navbar = (props) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/cart" className="nav-links" onClick={clickCart}>
+              <Link
+                to="/pizza-party/cart"
+                className="nav-links"
+                onClick={clickCart}>
                 <span
                   className={props.CartActive ? "nav-link active" : "nav-link"}>
                   Shopping Cart
@@ -50,7 +56,10 @@ const Navbar = (props) => {
               </Link>
             </li>
           </ul>
-          <Link to="/cart" className="nav-links-icon" onClick={clickCart}>
+          <Link
+            to="/pizza-party/cart"
+            className="nav-links-icon"
+            onClick={clickCart}>
             <i
               className="fas fa-shopping-cart me-4"
               style={{ fontSize: "20px" }}>

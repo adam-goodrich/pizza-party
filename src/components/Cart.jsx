@@ -42,7 +42,6 @@ const Cart = (props) => {
 
   function incrementCart(elementID) {
     let inputElement = document.getElementById(elementID);
-    console.log(inputElement.value);
 
     if (inputElement.value <= 0) {
       inputElement.value = 1;
@@ -264,7 +263,9 @@ const Cart = (props) => {
                 <div className="row">
                   <div className=" text-center">
                     <div class="d-grid gap-2">
-                      <Link to="/party" className="btn btn-success  mb-5  mt-2">
+                      <Link
+                        to="/pizza-party/party"
+                        className="btn btn-success  mb-5  mt-2">
                         <h3 className="pt-1">Checkout</h3>
                       </Link>
                     </div>
