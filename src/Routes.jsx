@@ -36,7 +36,7 @@ const Routes = () => {
           exact
           path="/"
           render={() => {
-            return <Redirect to="/pizza-party/home" />;
+            return <Redirect to="/home" />;
           }}
         />
         <Route
