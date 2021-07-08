@@ -36,11 +36,11 @@ const Routes = () => {
           exact
           path="/"
           render={() => {
-            return <Redirect to="/home" />;
+            return <Redirect to="/pizza-party/home" />;
           }}
         />
         <Route
-          path="/home"
+          path="/pizza-party/home"
           render={(props) => (
             <App
               totalItems={totalItems}
@@ -56,7 +56,7 @@ const Routes = () => {
           )}
         />
         <Route
-          path="/cart"
+          path="/pizza-party/cart"
           render={(props) => (
             <Cart
               totalItems={totalItems}
@@ -73,7 +73,7 @@ const Routes = () => {
         />
         <Route
           exact
-          path="/party"
+          path="/pizza-party/party"
           render={(props) => (
             <Party
               totalItems={totalItems}
