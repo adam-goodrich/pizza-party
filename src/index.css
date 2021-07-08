@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-links {
+  text-decoration: none;
+}
+
+.order-cards {
+  background-color: #f79862;
+}
+
+.hero-image {
+  height: fit-content;
+}
+
+.card {
+  border: 1px solid black;
+}
+
+.input-fields {
+  width: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.nav-links-icon {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.nav-links-icon:hover {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.cart-number {
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 20px;
+}
+
+.sudo-cards {
+  height: 40px;
+  background-color: #f79862;
+  border-top: 1px solid rgb(72, 70, 70);
+}
+
+.sudo-cards-down {
+  height: 40px;
+  background-color: #f79862;
+  border-bottom: 1px solid rgb(72, 70, 70);
+}
+
+.party-gif-container {
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 75%;
+  position: relative;
+}
+
+@media only screen and (max-width: 372px) {
+  .btn-outline-danger {
+    margin-top: 25px;
+  }
+}
