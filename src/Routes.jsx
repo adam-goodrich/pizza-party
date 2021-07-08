@@ -34,9 +34,9 @@ const Routes = () => {
       <Switch>
         <Route
           exact
-          path="/pizza-party/"
+          path="/"
           render={() => {
-            return <Redirect to="/pizza-party/home" />;
+            return <Redirect to="/home" />;
           }}
         />
         <Route
