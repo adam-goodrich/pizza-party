@@ -34,13 +34,13 @@ const Routes = () => {
       <Switch>
         <Route
           exact
-          path="/pizza-party/#/"
+          path="/"
           render={() => {
             return <Redirect to="/pizza-party/home" />;
           }}
         />
         <Route
-          path="/pizza-party/home"
+          path="/home"
           render={(props) => (
             <App
               totalItems={totalItems}
@@ -56,7 +56,7 @@ const Routes = () => {
           )}
         />
         <Route
-          path="/pizza-party/cart"
+          path="/cart"
           render={(props) => (
             <Cart
               totalItems={totalItems}
@@ -73,7 +73,7 @@ const Routes = () => {
         />
         <Route
           exact
-          path="/pizza-party/party"
+          path="/party"
           render={(props) => (
             <Party
               totalItems={totalItems}
