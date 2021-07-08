@@ -1,4 +1,4 @@
-import PizzaHero from "../PizzaHero.png";
+import PizzaHero from "../PizzaHero.lpeg";
 import CheesePizza from "../CheesePizza.jpeg";
 import MeatPizza from "../MeatPizza.jpeg";
 import VeggiePizza from "../VeggiePizza.jpeg";
