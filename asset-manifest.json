@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pizza-party/static/css/main.3891efad.chunk.css",
-    "main.js": "/pizza-party/static/js/main.529aa4fd.chunk.js",
-    "main.js.map": "/pizza-party/static/js/main.529aa4fd.chunk.js.map",
+    "main.js": "/pizza-party/static/js/main.a89a84b9.chunk.js",
+    "main.js.map": "/pizza-party/static/js/main.a89a84b9.chunk.js.map",
     "runtime-main.js": "/pizza-party/static/js/runtime-main.2ef25d02.js",
     "runtime-main.js.map": "/pizza-party/static/js/runtime-main.2ef25d02.js.map",
     "static/js/2.d667cb61.chunk.js": "/pizza-party/static/js/2.d667cb61.chunk.js",
@@ -16,13 +16,13 @@
     "static/media/EmptyBox.016758d3.jpeg": "/pizza-party/static/media/EmptyBox.016758d3.jpeg",
     "static/media/MeatPizza.82b37b77.jpeg": "/pizza-party/static/media/MeatPizza.82b37b77.jpeg",
     "static/media/PizzaChef.288881b1.jpeg": "/pizza-party/static/media/PizzaChef.288881b1.jpeg",
-    "static/media/PizzaHero.01db80e8.png": "/pizza-party/static/media/PizzaHero.01db80e8.png",
+    "static/media/PizzaHero.666288d0.jpeg": "/pizza-party/static/media/PizzaHero.666288d0.jpeg",
     "static/media/VeggiePizza.80928ebd.jpeg": "/pizza-party/static/media/VeggiePizza.80928ebd.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2ef25d02.js",
     "static/js/2.d667cb61.chunk.js",
     "static/css/main.3891efad.chunk.css",
-    "static/js/main.529aa4fd.chunk.js"
+    "static/js/main.a89a84b9.chunk.js"
   ]
 }
