@@ -2,6 +2,7 @@ import PizzaHero from "../PizzaHero.png";
 import CheesePizza from "../CheesePizza.jpeg";
 import MeatPizza from "../MeatPizza.jpeg";
 import VeggiePizza from "../VeggiePizza.jpeg";
+import { HashLink } from "react-router-hash-link";
 
 function App(props) {
   // when button is clicked on pizza type it gets the pizza type using element ID
@@ -66,11 +67,11 @@ function App(props) {
               down and click on one of our great options to add to your cart. We
               have an option for all types of parties. What are you waiting for!
             </p>
-            <a
-              href="/home#order-cards"
+            <HashLink
+              to="/home#order-cards"
               className="btn btn-primary btn-lg mt-2 mb-4">
               Click to see our options!
-            </a>
+            </HashLink>
           </div>
           <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
             <img className="rounded-lg-3" src={PizzaHero} alt="" width="965" />
