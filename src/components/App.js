@@ -32,6 +32,7 @@ function App(props) {
         props.SetTotalVeggie(props.totalVeggie + parseInt(amountToAdd));
       }
     }
+    inputElement.value = 0;
   };
 
   function increment(elementID) {
