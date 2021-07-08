@@ -110,7 +110,7 @@ const Cart = (props) => {
                       </div>
                       <div className="col-4">
                         <h2 className="text-end">
-                          ${props.totalCheese * 9.99}
+                          ${(props.totalCheese * 9.99).toFixed(2)}
                         </h2>
                       </div>
                     </div>
@@ -158,7 +158,9 @@ const Cart = (props) => {
                         </h2>
                       </div>
                       <div className="col-4">
-                        <h2 className="text-end">${props.totalMeat * 14.99}</h2>
+                        <h2 className="text-end">
+                          ${(props.totalMeat * 14.99).toFixed(2)}
+                        </h2>
                       </div>
                     </div>
                     <div className="row">
@@ -206,7 +208,7 @@ const Cart = (props) => {
                       </div>
                       <div className="col-4">
                         <h3 className="text-end">
-                          ${props.totalVeggie * 12.99}
+                          ${(props.totalVeggie * 12.99).toFixed(2)}
                         </h3>
                       </div>
                     </div>
@@ -253,9 +255,11 @@ const Cart = (props) => {
                     <div className="col-4">
                       <h3 className="text-end">
                         $
-                        {props.totalVeggie * 12.99 +
+                        {(
+                          props.totalVeggie * 12.99 +
                           props.totalMeat * 14.99 +
-                          props.totalCheese * 9.99}
+                          props.totalCheese * 9.99
+                        ).toFixed(2)}
                       </h3>
                     </div>
                   </div>
