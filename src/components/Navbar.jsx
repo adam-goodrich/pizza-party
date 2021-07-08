@@ -15,7 +15,7 @@ const Navbar = (props) => {
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <span className="navbar-brand p-2">
-          <Link to="/" className="nav-links" onClick={clickHome}>
+          <Link to="/home" className="nav-links" onClick={clickHome}>
             <span className="nav-links-icon">
               <i className="fas fa-pizza-slice navbar-brand"></i> Pizza Party
             </span>
