@@ -40,7 +40,6 @@ const Routes = () => {
           }}
         />
         <Route
-          exact
           path="/home"
           render={(props) => (
             <App
@@ -57,7 +56,6 @@ const Routes = () => {
           )}
         />
         <Route
-          exact
           path="/cart"
           render={(props) => (
             <Cart
