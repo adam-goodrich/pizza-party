@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import App from "./components/App";
 import Cart from "./components/Cart";
 import Navbar from "./components/Navbar";
@@ -22,7 +22,7 @@ const Routes = () => {
   }, [totalCheese, totalMeat, totalVeggie]);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar
         HomeActive={HomeActive}
         SetHomeActive={SetHomeActive}
@@ -88,7 +88,7 @@ const Routes = () => {
             />
           )}></Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
